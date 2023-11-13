@@ -1,6 +1,6 @@
 interface Order {
   id: string;
-  address: string|null;
+  addressId: string|null;
   deliveryDate: Date|null;
   followCode: string;
   isPaid: boolean;

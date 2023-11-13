@@ -6,6 +6,10 @@ interface UserClient {
   lastConnection: Date;
   name: string;
   phone: string;
+  mainAddressId: string|null;
+  mainPaymentCardId: string|null;
+  mainProfileId: string|null;
+  isDeleted: boolean;
   createdAt: Date;
   updatedAt: Date;
 }

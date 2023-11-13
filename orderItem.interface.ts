@@ -4,6 +4,7 @@ interface OrderItem {
   orderId: string;
   quantity: number;
   total: number;
+  detailedSize: string;
   createdAt: Date;
   updatedAt: Date;
 }

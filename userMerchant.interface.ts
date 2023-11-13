@@ -9,6 +9,7 @@ interface UserMerchant {
   lastConnection: Date;
   name: string;
   phone: string;
+  isDeleted: boolean;
   createdAt: Date;
   updatedAt: Date;
 }

@@ -6,8 +6,8 @@ interface Article {
   isAvailable: boolean;
   name: string;
   price: number;
-  stock: number;
   userMerchantId: string;
+  sizeId: string;
   createdAt: Date;
   updatedAt: Date;
 }
