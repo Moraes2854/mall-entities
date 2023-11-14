@@ -8,6 +8,7 @@ interface Article {
   price: number;
   userMerchantId: string;
   sizeId: string;
+  isDeleted: boolean;
   createdAt: Date;
   updatedAt: Date;
 }

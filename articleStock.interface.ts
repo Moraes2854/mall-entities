@@ -4,6 +4,7 @@ interface ArticleStock {
     sizeId: string;
     detailedSize: string;
     stock: number;
+    isDeleted: boolean;
     createdAt: Date;
     updatedAt: Date;
 }

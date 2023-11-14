@@ -7,6 +7,7 @@ interface Payment {
   userClientId: string|null;
   userMerchantId: string;
   zenriseTransactionId: string|null;
+  paymentCardId: string|null;
   createdAt: Date;
   updatedAt: Date;
 }

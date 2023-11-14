@@ -5,7 +5,6 @@ interface Order {
   followCode: string;
   isPaid: boolean;
   paymentId: string|null;
-  phone: string;
   status: 'DELIVERED' | 'CLAIMED' | 'NOT-RECEIVED' | 'CANCELED';
   total: number;
   userClientId: string|null;

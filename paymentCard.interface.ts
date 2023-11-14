@@ -9,6 +9,7 @@ interface PaymentCard {
   number: string;
   securityCode: string;
   userClientId: string;
+  isDeleted: boolean;
   createdAt: Date;
   updatedAt: Date;
 }
